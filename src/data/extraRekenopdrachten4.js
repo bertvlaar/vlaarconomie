@@ -1,0 +1,21 @@
+const extraRekenopdrachten4 = [
+  { nummer: 1, niveau: '2F', vraag: 'Een T-shirt heeft een kostprijs van €2 en wordt verkocht voor €8. Wat is de winst per T-shirt?', antwoord: 6, eenheid: '€', uitleg: '8 − 2 = €6.' },
+  { nummer: 2, niveau: '2F', vraag: 'Een kledingwinkel verkoopt 500 broeken per maand met een winst van €9 per broek. Bereken de totale winst per maand.', antwoord: 4500, eenheid: '€', uitleg: '500 × €9 = €4.500.' },
+  { nummer: 3, niveau: '2F', vraag: 'Een spijkerbroek kost €40 in de winkel. De kostprijs is €14. Hoeveel procent van de verkoopprijs is winst?', antwoord: 65, eenheid: '%', uitleg: '(40 − 14) / 40 × 100% = 65%.' },
+  { nummer: 4, niveau: '2F', vraag: 'Een hoodie kostte vorig jaar €25. Dit jaar is de prijs met 20% gestegen. Wat is de nieuwe prijs?', antwoord: 30, eenheid: '€', uitleg: '25 × 1,20 = €30.' },
+  { nummer: 5, niveau: '2F', vraag: 'Een kledingabonnement kost €35 per maand. Bereken de totale kosten over een heel jaar (12 maanden).', antwoord: 420, eenheid: '€', uitleg: '35 × 12 = €420.' },
+  { nummer: 6, niveau: '2F', vraag: 'Een winkel verkoopt 80% van haar collectie binnen 1 maand. Van een collectie van 2.500 stuks, hoeveel stuks worden er binnen 1 maand verkocht?', antwoord: 2000, eenheid: 'stuks', uitleg: '80% van 2.500 = 2.000.' },
+  { nummer: 7, niveau: '2F', vraag: 'Een reparatie van een rits kost €6, terwijl een nieuwe broek €38 kost. Hoeveel euro bespaar je door te repareren in plaats van nieuw te kopen?', antwoord: 32, eenheid: '€', uitleg: '38 − 6 = €32.' },
+  { nummer: 8, niveau: '2F', vraag: 'Een T-shirt van €5 bestaat voor 6% uit grondstofkosten. Hoeveel euro is dat?', antwoord: 0.3, eenheid: '€', tolerantie: 0.02, uitleg: '6% van €5 = €0,30.' },
+
+  { nummer: 1, niveau: '3F', vraag: 'Een fast-fashionmerk verkoopt 80.000 kledingstukken per maand met een winstmarge van 4%, bij een gemiddelde verkoopprijs van €9. Bereken de totale winst per maand.', antwoord: 28800, eenheid: '€', uitleg: 'Omzet: 80.000 × €9 = €720.000. Winst: 4% van €720.000 = €28.800.' },
+  { nummer: 2, niveau: '3F', vraag: 'Een slow-fashionmerk verkoopt 3.000 kledingstukken per maand met een winstmarge van 25%, bij een gemiddelde verkoopprijs van €60. Bereken de totale winst per maand.', antwoord: 45000, eenheid: '€', uitleg: 'Omzet: 3.000 × €60 = €180.000. Winst: 25% van €180.000 = €45.000.' },
+  { nummer: 3, niveau: '3F', vraag: 'Een winkel verlaagt de verkoopprijs van een broek van €50 naar €35. Met hoeveel procent is de prijs gedaald (afgerond op één decimaal)?', antwoord: 30, eenheid: '%', tolerantie: 0.5, uitleg: '(50 − 35) / 50 × 100% = 30%.' },
+  { nummer: 4, niveau: '3F', vraag: 'Een kledingabonnement kost €30 per maand. Een klant koopt normaal 4 nieuwe kledingstukken per maand van gemiddeld €15. Hoeveel euro bespaart de klant per jaar door over te stappen op het abonnement?', antwoord: 360, eenheid: '€', uitleg: 'Kopen: 4 × €15 × 12 = €720 per jaar. Abonnement: €30 × 12 = €360 per jaar. Besparing: €720 − €360 = €360.' },
+  { nummer: 5, niveau: '3F', vraag: 'Een merk verhoogt de omloopsnelheid van 8 naar 12 collecties per jaar, waarbij elke collectie €4.500 winst oplevert. Bereken de winststijging per jaar.', antwoord: 18000, eenheid: '€', uitleg: '(12 − 8) × €4.500 = 4 × €4.500 = €18.000.' },
+  { nummer: 6, niveau: '3F', vraag: 'Een T-shirt kost €6 met een winstmarge van 15%. De grondstofkosten zijn €0,50. Hoeveel procent van de verkoopprijs is dat (afgerond op één decimaal)?', antwoord: 8.3, eenheid: '%', tolerantie: 0.3, uitleg: '0,50 / 6 × 100% ≈ 8,3%.' },
+  { nummer: 7, niveau: '3F', vraag: 'Een kledingmerk beweert dat een collectie "100% CO₂-neutraal" is dankzij compensatie, maar de werkelijke uitstoot van de fabriek stijgt met 10% van 4.000 naar 4.400 ton. Bereken de werkelijke stijging in tonnen.', antwoord: 400, eenheid: 'ton', uitleg: '4.400 − 4.000 = 400 ton (compensatie verandert deze werkelijke uitstoot niet).' },
+  { nummer: 8, niveau: '3F', vraag: 'Een verhuurbedrijf verhuurt een jurk 6 keer voor €25 per verhuring, voordat deze wordt afgeschreven. De inkoopprijs van de jurk was €80. Bereken de totale winst over de levensduur van de jurk.', antwoord: 70, eenheid: '€', uitleg: 'Totale opbrengst: 6 × €25 = €150. Winst: €150 − €80 = €70.' },
+]
+
+export default extraRekenopdrachten4
