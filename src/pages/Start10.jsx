@@ -32,8 +32,8 @@ export default function Start10() {
         <div className="aspect-video w-full overflow-hidden rounded-lg border border-border">
           <iframe
             className="h-full w-full"
-            src="https://www.youtube.com/embed/dhrDNwCEGGk"
-            title="Waarom stijgt de gasprijs? En wat heeft dat met de wereld te maken?"
+            src="https://www.youtube.com/embed/I6Z9Zk4wp9k"
+            title="Waarom de gasprijs daalt, maar je energierekening stijgt • Z zoekt uit"
             allowFullScreen
           />
         </div>

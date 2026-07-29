@@ -30,8 +30,8 @@ export default function Start8() {
         <div className="aspect-video w-full overflow-hidden rounded-lg border border-border">
           <iframe
             className="h-full w-full"
-            src="https://www.youtube.com/embed/dhrDNwCEGGk"
-            title="Hoe werkt de tweedehandsmarkt? Vinted, Marktplaats en de circulaire economie"
+            src="https://www.youtube.com/embed/kqvxgGSMs2M"
+            title="Kleding kopen op Vinted? Zo doe ik dat"
             allowFullScreen
           />
         </div>

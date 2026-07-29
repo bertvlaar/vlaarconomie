@@ -29,21 +29,24 @@ export default function Start3() {
         </p>
       </section>
 
-      <Section title="🎬 Introductieopdracht (± 5 min.)">
-        <div className="rounded-lg border border-dashed border-border bg-white p-5">
-          <p className="text-slate-700">
-            Docent: zoek voorafgaand aan de les een korte (Nederlandstalige) video over de
-            abonnementeneconomie of over prijsstijgingen bij streamingdiensten, en plaats de link hier in
-            een <code>iframe</code> (zie de andere thema's voor het exacte format). Geen passende video
-            gevonden? Start de les dan met de kijkvragen hieronder als klassikaal gesprek, aan de hand van
-            de eigen abonnementen van de leerlingen.
-          </p>
+      <Section title="🎬 Introductievideo (± 3 min.)">
+        <div className="aspect-video w-full overflow-hidden rounded-lg border border-border">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/sBAZlM4hEjo"
+            title="Een abonnement opzeggen is toch gratis?"
+            allowFullScreen
+          />
         </div>
+        <p className="mt-3 text-sm text-slate-500">
+          Docent: vervang deze video indien gewenst door een recentere of eigen uitleg over de
+          abonnementeneconomie of prijsstijgingen bij streamingdiensten.
+        </p>
 
-        <h3 className="mb-3 mt-6 text-slate-900">Kijk-/gespreksvragen</h3>
+        <h3 className="mb-3 mt-6 text-slate-900">Kijkvragen</h3>
         <ol className="list-decimal space-y-2 pl-5 text-slate-700">
+          <li>Welke abonnementen worden in de video genoemd, en wat is er lastig aan het opzeggen ervan?</li>
           <li>Welke abonnementen heb jij, of heeft je gezin, op dit moment lopen?</li>
-          <li>Weet je precies hoeveel deze abonnementen samen per maand kosten?</li>
           <li>Is er weleens een abonnement geweest dat je vergeten was op te zeggen? Wat gebeurde er?</li>
         </ol>
       </Section>
