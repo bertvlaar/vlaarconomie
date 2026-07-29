@@ -1,0 +1,55 @@
+const rekenLes12 = [
+  {
+    nummer: 1,
+    niveau: '2F',
+    vraag: 'Je zet €500 op een spaarrekening met 2% rente per jaar. Bereken het bedrag na 1 jaar.',
+    antwoord: 510,
+    eenheid: '€',
+    uitleg: '€500 × 1,02 = €510.',
+  },
+  {
+    nummer: 2,
+    niveau: '2F',
+    vraag: 'Je belegt €500 in aandelen met een gemiddeld rendement van 7% per jaar. Bereken het bedrag na 1 jaar.',
+    antwoord: 535,
+    eenheid: '€',
+    uitleg: '€500 × 1,07 = €535.',
+  },
+  {
+    nummer: 3,
+    niveau: '2F',
+    vraag: 'Een "guru" belooft 20% winst per week op een inleg van €500. Bereken het beloofde bedrag na 1 week.',
+    antwoord: 600,
+    eenheid: '€',
+    uitleg: '€500 × 1,20 = €600.',
+  },
+  {
+    nummer: 4,
+    niveau: '3F',
+    vraag: 'Gebruik dezelfde belofte van 20% winst per week. Bereken het beloofde bedrag na 4 weken (met samengestelde groei), afgerond op hele euro\'s.',
+    antwoord: 1037,
+    eenheid: '€',
+    tolerantie: 2,
+    uitleg: '€500 × 1,20⁴ ≈ €500 × 2,0736 ≈ €1.037.',
+  },
+  {
+    nummer: 5,
+    niveau: '3F',
+    vraag: 'Bereken hoeveel keer groter het beloofde bedrag na 4 weken (vraag 4) is dan het bedrag op de spaarrekening na 1 jaar (vraag 1), afgerond op een heel getal.',
+    antwoord: 203,
+    eenheid: 'keer',
+    tolerantie: 5,
+    uitleg: '€1.037 ÷ €510 ≈ 203 keer zo groot.',
+  },
+  {
+    nummer: 6,
+    niveau: '3F',
+    vraag: 'Bereken het beloofde bedrag na 12 weken bij dezelfde belofte van 20% per week op een inleg van €500, afgerond op hele euro\'s.',
+    antwoord: 4459,
+    eenheid: '€',
+    tolerantie: 50,
+    uitleg: '€500 × 1,20¹² ≈ €4.459.',
+  },
+]
+
+export default rekenLes12
