@@ -2,7 +2,7 @@
 // (Abonnementenroof: Van Netflix tot HelloFresh)
 // Gegroepeerd per les, zodat leerlingen begrippen snel kunnen terugvinden
 // bij de stof waar ze bij horen. Begrippen met vwo: true horen bij de
-// VWO-verdiepingsonderdelen en zijn verdiepende stof.
+// Uitdaging-onderdelen en zijn verdiepende stof.
 
 const begrippenThema3 = [
   {

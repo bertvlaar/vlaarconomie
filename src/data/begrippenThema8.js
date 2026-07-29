@@ -2,7 +2,7 @@
 // (Tweedehands is het nieuwe nieuw: Vinted & Marktplaats)
 // Gegroepeerd per les, zodat leerlingen begrippen snel kunnen terugvinden
 // bij de stof waar ze bij horen. Begrippen met vwo: true horen bij de
-// VWO-Challenge-onderdelen en zijn verdiepende stof.
+// Uitdaging-onderdelen en zijn verdiepende stof.
 
 const begrippenThema8 = [
   {
