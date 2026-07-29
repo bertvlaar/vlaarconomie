@@ -63,7 +63,7 @@ export default function Les31() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: Customer Lifetime Value (CLV)">
+        <InfoBox type="vwo" title="De Uitdaging: Customer Lifetime Value (CLV)">
           <p>
             De <strong>Customer Lifetime Value (CLV)</strong> is de totale waarde die een gemiddelde klant
             gedurende de hele periode dat hij of zij abonnee is, oplevert aan een bedrijf. Een eenvoudige

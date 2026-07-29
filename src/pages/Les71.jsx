@@ -69,7 +69,7 @@ export default function Les71() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: vast aanbod (inelastisch aanbod)">
+        <InfoBox type="vwo" title="De Uitdaging: vast aanbod (inelastisch aanbod)">
           <p>
             Bij de meeste markten kan het aanbod op de langere termijn meebewegen: een bakker kan meer brood
             bakken, een fabriek kan meer produceren. Maar bij een pretpark is de{' '}

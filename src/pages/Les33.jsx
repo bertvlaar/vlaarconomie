@@ -62,7 +62,7 @@ export default function Les33() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: informatie-asymmetrie bij opzeggen">
+        <InfoBox type="vwo" title="De Uitdaging: informatie-asymmetrie bij opzeggen">
           <p>
             Het bedrijf weet exact hoe de opzegprocedure werkt: welke stappen, welke wachttijden en welke
             voorwaarden gelden. De consument weet dit vooraf meestal niet. Dit verschil in kennis heet{' '}

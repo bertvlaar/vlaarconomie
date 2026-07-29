@@ -119,7 +119,7 @@ export default function Les64() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: de nettowinstmarge vergelijken tussen bedrijven">
+        <InfoBox type="vwo" title="De Uitdaging: de nettowinstmarge vergelijken tussen bedrijven">
           <p>
             Twee bedrijven kunnen exact dezelfde nettowinst hebben (bijvoorbeeld €4.500), maar een heel
             andere nettowinstmarge, als hun omzet verschilt. Een bedrijf met €18.000 omzet en €4.500

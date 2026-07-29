@@ -51,7 +51,7 @@ export default function Les14() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: het provisieverbod">
+        <InfoBox type="vwo" title="De Uitdaging: het provisieverbod">
           <p>
             Om informatie-asymmetrie tussen adviseurs (of finfluencers) en consumenten te verkleinen, geldt
             in Nederland een <strong>provisieverbod</strong>: het is verboden om commissie te ontvangen voor

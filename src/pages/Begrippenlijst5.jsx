@@ -24,7 +24,7 @@ export default function Begrippenlijst5() {
                   {b.term}
                   {b.vwo && (
                     <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-bold text-purple-800">
-                      vwo
+                      de uitdaging
                     </span>
                   )}
                 </dt>

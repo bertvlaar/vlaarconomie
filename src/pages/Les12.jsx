@@ -45,7 +45,7 @@ export default function Les12() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: samengestelde interest bij extreme rendementen">
+        <InfoBox type="vwo" title="De Uitdaging: samengestelde interest bij extreme rendementen">
           <p>
             Deze regel geldt ook voor de tijd die je erin moet steken: "passief" duizenden euro's per maand
             verdienen zonder kennis, netwerk of tijdsinvestering bestaat economisch gezien niet. Iemand moet

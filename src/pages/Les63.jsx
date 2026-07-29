@@ -101,7 +101,7 @@ export default function Les63() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: een negatieve nettowinst (verlies)">
+        <InfoBox type="vwo" title="De Uitdaging: een negatieve nettowinst (verlies)">
           <p>
             Zijn de overige kosten hoger dan de brutowinst, dan is de nettowinst negatief: het bedrijf
             draait dan <strong>verlies</strong> in plaats van winst. Dit gebeurt bijvoorbeeld wanneer de

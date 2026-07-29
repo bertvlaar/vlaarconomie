@@ -58,7 +58,7 @@ export default function Les22() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: marginale kosten van een digitaal goed">
+        <InfoBox type="vwo" title="De Uitdaging: marginale kosten van een digitaal goed">
           <p>
             De <strong>marginale kosten</strong> van een digitaal goed — de kosten van het maken van één
             extra exemplaar — zijn voor de ontwikkelaar vrijwel nul, ongeacht hoe zeldzaam het item wordt

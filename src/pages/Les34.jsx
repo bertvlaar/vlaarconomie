@@ -51,7 +51,7 @@ export default function Les34() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: verzonken kosten (sunk cost)">
+        <InfoBox type="vwo" title="De Uitdaging: verzonken kosten (sunk cost)">
           <p>
             Mensen redeneren soms: "ik betaal al zo lang voor dit abonnement, dan kan ik nu niet meer
             stoppen." Dit is een denkfout: de reeds gemaakte kosten (<strong>verzonken kosten</strong>)

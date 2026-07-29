@@ -69,7 +69,7 @@ export default function Les54() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waarom sponsoring vaak overtuigender is dan tv-reclame">
+        <InfoBox type="vwo" title="De Uitdaging: waarom sponsoring vaak overtuigender is dan tv-reclame">
           <p>
             Een influencer heeft vaak een hechtere, meer vertrouwde band met zijn volgers dan een
             onbekend gezicht in een tv-commercial, waardoor een aanbeveling overtuigender kan overkomen

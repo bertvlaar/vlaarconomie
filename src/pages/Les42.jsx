@@ -60,7 +60,7 @@ export default function Les42() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: prijsgevoeligheid van fast-fashionklanten">
+        <InfoBox type="vwo" title="De Uitdaging: prijsgevoeligheid van fast-fashionklanten">
           <p>
             Fast-fashionkleding wordt vaak gekocht voor een korte trend in plaats van jarenlang gebruik.
             Klanten letten daardoor minder op kwaliteit en meer op prijs: ze zijn erg{' '}

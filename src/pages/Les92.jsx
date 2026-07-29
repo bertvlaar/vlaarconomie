@@ -57,7 +57,7 @@ export default function Les92() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: geld nu is meer waard dan geld later">
+        <InfoBox type="vwo" title="De Uitdaging: geld nu is meer waard dan geld later">
           <p>
             Deze eenvoudige berekening houdt geen rekening met de tijdswaarde van geld: €1.000 die je
             over 10 jaar ontvangt, is in economische zin minder waard dan €1.000 die je nu ontvangt,

@@ -61,7 +61,7 @@ export default function Les44() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: het rebound-effect">
+        <InfoBox type="vwo" title="De Uitdaging: het rebound-effect">
           <p>
             Circulaire modellen klinken altijd duurzamer, maar dat is niet vanzelfsprekend. Als een goedkoop
             kledingabonnement mensen juist aanmoedigt om vaker van outfit te wisselen dan voorheen, kan de

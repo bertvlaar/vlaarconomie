@@ -69,7 +69,7 @@ export default function Les51() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: opportunitykosten van je tijd">
+        <InfoBox type="vwo" title="De Uitdaging: opportunitykosten van je tijd">
           <p>
             Economen noemen de waarde van het beste alternatief dat je opgeeft door een keuze te
             maken de <strong>opportunitykosten</strong> (of alternatieve aanwendingsmogelijkheden).

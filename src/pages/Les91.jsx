@@ -66,7 +66,7 @@ export default function Les91() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waarom de overheid meebetaalt aan onderwijs">
+        <InfoBox type="vwo" title="De Uitdaging: waarom de overheid meebetaalt aan onderwijs">
           <p>
             Menselijk kapitaal is in de eerste plaats een investering van het individu zelf, maar
             onderwijs levert ook <strong>externe effecten</strong> op die niet alleen bij de student

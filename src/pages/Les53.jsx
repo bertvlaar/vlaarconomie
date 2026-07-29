@@ -68,7 +68,7 @@ export default function Les53() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: data als grondstof, privacy als prijs">
+        <InfoBox type="vwo" title="De Uitdaging: data als grondstof, privacy als prijs">
           <p>
             Gebruikersdata wordt wel eens "de grondstof van de aandachtseconomie" genoemd: zonder data
             over jouw gedrag kunnen platforms en adverteerders veel minder gericht (en dus minder

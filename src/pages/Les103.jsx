@@ -57,7 +57,7 @@ export default function Les103() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: toegevoegde waarde per schakel">
+        <InfoBox type="vwo" title="De Uitdaging: toegevoegde waarde per schakel">
           <p>
             Elke stap in de waardeketen voegt iets toe aan het product: dit noemen economen{' '}
             <strong>toegevoegde waarde</strong>, het verschil tussen de waarde van wat een bedrijf

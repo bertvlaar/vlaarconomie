@@ -86,7 +86,7 @@ export default function Les94() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: arbeidsmarktrisico">
+        <InfoBox type="vwo" title="De Uitdaging: arbeidsmarktrisico">
           <p>
             De berekende terugverdientijd gaat uit van een verwacht, gemiddeld loonverschil. In de
             praktijk bestaat er <strong>arbeidsmarktrisico</strong>: de kans dat iemand, ondanks een

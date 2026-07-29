@@ -70,7 +70,7 @@ export default function Les62() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waarom vaste kosten relatief zwaarder wegen bij tegenvallende verkoop">
+        <InfoBox type="vwo" title="De Uitdaging: waarom vaste kosten relatief zwaarder wegen bij tegenvallende verkoop">
           <p>
             Omdat vaste kosten hetzelfde blijven ongeacht de afzet, wegen ze relatief zwaarder wanneer een
             bedrijf minder verkoopt: dezelfde €3.000 huur en salaris moet dan uit een kleinere omzet worden

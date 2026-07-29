@@ -77,7 +77,7 @@ export default function Les32() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: churn en freemium samen">
+        <InfoBox type="vwo" title="De Uitdaging: churn en freemium samen">
           <p>
             Freemium-bedrijven kijken niet alleen naar de conversieratio, maar ook naar de{' '}
             <strong>churn</strong> van betaalde gebruikers: het percentage dat na het upgraden weer terug

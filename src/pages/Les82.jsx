@@ -62,7 +62,7 @@ export default function Les82() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: het rebound-effect">
+        <InfoBox type="vwo" title="De Uitdaging: het rebound-effect">
           <p>
             Tweedehandshandel is niet automatisch een volledige oplossing. Doordat tweedehands kleding
             goedkoper is, kan het ook verleiden tot méér kopen dan wanneer alles nieuw en duur zou zijn.

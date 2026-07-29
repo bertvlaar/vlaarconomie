@@ -63,7 +63,7 @@ export default function Les61() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: omzet is niet hetzelfde als winst">
+        <InfoBox type="vwo" title="De Uitdaging: omzet is niet hetzelfde als winst">
           <p>
             Een hoge omzet zegt op zichzelf nog niets over hoe gezond een bedrijf is: de omzet houdt geen
             rekening met de kosten die een bedrijf maakt om die producten in te kopen en te verkopen. Pas

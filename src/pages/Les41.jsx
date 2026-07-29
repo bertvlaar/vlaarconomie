@@ -67,7 +67,7 @@ export default function Les41() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: schaalvoordeel (economies of scale)">
+        <InfoBox type="vwo" title="De Uitdaging: schaalvoordeel (economies of scale)">
           <p>
             Hoe groter de productie, hoe lager de gemiddelde kosten per product — dit heet{' '}
             <strong>schaalvoordeel</strong>. Een merk dat miljoenen T-shirts tegelijk bestelt, betaalt per

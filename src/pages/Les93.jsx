@@ -54,7 +54,7 @@ export default function Les93() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: leenaversie">
+        <InfoBox type="vwo" title="De Uitdaging: leenaversie">
           <p>
             Niet iedereen behandelt een lening en een even grote toekomstige terugbetaling als
             economisch gelijkwaardig: sommige mensen hebben een sterke afkeer van schulden

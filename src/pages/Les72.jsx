@@ -70,7 +70,7 @@ export default function Les72() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: unitaire elasticiteit">
+        <InfoBox type="vwo" title="De Uitdaging: unitaire elasticiteit">
           <p>
             Is de absolute waarde van de prijselasticiteit precies <strong>1</strong>, dan spreken we van{' '}
             <strong>unitaire elasticiteit</strong>: de gevraagde hoeveelheid daalt (of stijgt) procentueel

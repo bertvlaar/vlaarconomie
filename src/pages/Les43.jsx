@@ -89,7 +89,7 @@ export default function Les43() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: informatie-asymmetrie">
+        <InfoBox type="vwo" title="De Uitdaging: informatie-asymmetrie">
           <p>
             Een kledingmerk weet veel meer over de eigen productieketen dan de consument: dit verschil in
             kennis heet <strong>informatie-asymmetrie</strong>. Doordat de consument de fabriek, de

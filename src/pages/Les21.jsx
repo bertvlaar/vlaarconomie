@@ -50,7 +50,7 @@ export default function Les21() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: conversieratio">
+        <InfoBox type="vwo" title="De Uitdaging: conversieratio">
           <p>
             De <strong>conversieratio</strong> is het percentage gratis spelers dat uiteindelijk overgaat tot
             een betaalde aankoop. Uit onderzoek van gameanalisten blijkt dat dit percentage vaak laag ligt

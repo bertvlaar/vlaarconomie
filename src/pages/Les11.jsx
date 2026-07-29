@@ -50,7 +50,7 @@ export default function Les11() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: waarom juist jongeren een doelwit zijn">
+        <InfoBox type="vwo" title="De Uitdaging: waarom juist jongeren een doelwit zijn">
           <p>
             Tieners zijn een aantrekkelijke doelgroep voor deze oplichters: veel jongeren hebben nog weinig
             ervaring met financiële producten, zijn gewend om beslissingen te nemen op basis van korte

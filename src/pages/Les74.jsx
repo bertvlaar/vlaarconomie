@@ -59,7 +59,7 @@ export default function Les74() {
           gelijk — waardoor de marge juist toe- of afneemt naarmate het park de prijs verhoogt of verlaagt.
         </p>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waarom de marge niet lineair meegroeit met de prijs">
+        <InfoBox type="vwo" title="De Uitdaging: waarom de marge niet lineair meegroeit met de prijs">
           <p>
             Bij een prijsverhoging groeit de marge per bezoeker sneller dan de verkoopprijs zelf, omdat de
             kostprijs (grotendeels) gelijk blijft: stijgt de prijs van €40 naar €50 (+25%) bij een kostprijs

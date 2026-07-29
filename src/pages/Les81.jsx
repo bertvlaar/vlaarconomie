@@ -74,7 +74,7 @@ export default function Les81() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: informatie-asymmetrie en reputatiesystemen">
+        <InfoBox type="vwo" title="De Uitdaging: informatie-asymmetrie en reputatiesystemen">
           <p>
             Economen noemen dit verschil in kennis tussen koper en verkoper{' '}
             <strong>informatie-asymmetrie</strong>: de verkoper heeft meer informatie over het product dan

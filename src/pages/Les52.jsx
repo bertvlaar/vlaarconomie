@@ -66,7 +66,7 @@ export default function Les52() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: risicospreiding door meerdere inkomstenbronnen">
+        <InfoBox type="vwo" title="De Uitdaging: risicospreiding door meerdere inkomstenbronnen">
           <p>
             Makers die zowel reclame-inkomsten, abonnementsgeld als sponsordeals combineren, spreiden
             hun financiële risico: als één inkomstenbron daalt (bijvoorbeeld doordat adverteerders

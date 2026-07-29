@@ -59,7 +59,7 @@ export default function Les102() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: doorwerking in de bredere economie">
+        <InfoBox type="vwo" title="De Uitdaging: doorwerking in de bredere economie">
           <p>
             Een gasprijsschok blijft zelden beperkt tot de energierekening alleen. Hogere energiekosten
             voor bedrijven werken door in de prijzen van andere producten (inflatie), en huishoudens die

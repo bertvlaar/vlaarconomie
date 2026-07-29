@@ -70,7 +70,7 @@ export default function Les101() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: energieonafhankelijkheid als strategisch doel">
+        <InfoBox type="vwo" title="De Uitdaging: energieonafhankelijkheid als strategisch doel">
           <p>
             Voor landen die sterk afhankelijk zijn van geïmporteerde energie, is{' '}
             <strong>energieonafhankelijkheid</strong> een strategisch doel geworden: de mate waarin een

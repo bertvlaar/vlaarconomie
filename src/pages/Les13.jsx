@@ -53,7 +53,7 @@ export default function Les13() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: exponentiële groei">
+        <InfoBox type="vwo" title="De Uitdaging: exponentiële groei">
           <p>
             Bij elk niveau van een piramidespel wordt het aantal benodigde nieuwe deelnemers vermenigvuldigd
             in plaats van simpelweg opgeteld. Deze <strong>exponentiële groei</strong> zorgt ervoor dat het

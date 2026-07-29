@@ -105,7 +105,7 @@ export default function Les84() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: het fiscale grijze gebied">
+        <InfoBox type="vwo" title="De Uitdaging: het fiscale grijze gebied">
           <p>
             Bij incidentele verkoop van eigen, niet langer gebruikte spullen hoeft doorgaans geen
             belasting betaald te worden. Wanneer iemand echter structureel en met een duidelijk

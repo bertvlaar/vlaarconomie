@@ -59,7 +59,7 @@ export default function Les83() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waardebehoud verschilt per merk">
+        <InfoBox type="vwo" title="De Uitdaging: waardebehoud verschilt per merk">
           <p>
             Sommige merken hebben een hoog <strong>waardebehoud</strong>: door schaarste, populariteit of
             kwaliteit blijft de vraag naar tweedehands exemplaren hoog, waardoor ze per jaar minder snel

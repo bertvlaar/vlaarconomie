@@ -87,7 +87,7 @@ export default function Les73() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: surge pricing en maatschappelijke discussie">
+        <InfoBox type="vwo" title="De Uitdaging: surge pricing en maatschappelijke discussie">
           <p>
             Bij <strong>surge pricing</strong>, zoals bij Uber, kan de prijs binnen enkele minuten fors
             stijgen zodra de vraag naar ritten het aanbod van beschikbare chauffeurs sterk overstijgt — denk

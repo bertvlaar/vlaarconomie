@@ -49,7 +49,7 @@ export default function Les24() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-verdieping: verliesaversie">
+        <InfoBox type="vwo" title="De Uitdaging: verliesaversie">
           <p>
             <strong>Verliesaversie</strong> is de psychologische neiging om een verlies (of een gemiste kans)
             zwaarder te laten wegen dan een even grote winst. Bij een tijdelijke aanbieding voelt het mislopen

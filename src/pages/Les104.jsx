@@ -96,7 +96,7 @@ export default function Les104() {
           </p>
         </InfoBox>
 
-        <InfoBox type="vwo" title="VWO-Challenge: waarom kennis schaarser is dan arbeid">
+        <InfoBox type="vwo" title="De Uitdaging: waarom kennis schaarser is dan arbeid">
           <p>
             Dit verklaart waarom globalisering wereldwijd welvaart kan creëren, en tegelijk waarom die
             welvaart lang niet gelijk verdeeld terechtkomt bij iedereen die aan het eindproduct heeft
