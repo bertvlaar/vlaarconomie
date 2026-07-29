@@ -2,7 +2,21 @@ import { Routes, Route } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop.jsx'
 import ThemaLayout from './components/ThemaLayout.jsx'
 import ThemaStart from './pages/ThemaStart.jsx'
-import Thema1 from './pages/Thema1.jsx'
+// Thema 1 heeft, net als Thema 2, 3, 4, 5, 7, 8, 9 en 10, een volledig
+// uitgewerkte les-structuur (Start, 4 lessen, begrippenlijst, extra
+// rekenopdrachten, eindquiz, project en een docentenpagina) met een eigen
+// Layout en Header, zie components/Thema1Layout.jsx en components/Header1.jsx.
+import Thema1Layout from './components/Thema1Layout.jsx'
+import Start1 from './pages/Start1.jsx'
+import Les11 from './pages/Les11.jsx'
+import Les12 from './pages/Les12.jsx'
+import Les13 from './pages/Les13.jsx'
+import Les14 from './pages/Les14.jsx'
+import Begrippenlijst1 from './pages/Begrippenlijst1.jsx'
+import ExtraRekenopdrachten1 from './pages/ExtraRekenopdrachten1.jsx'
+import Eindquiz1 from './pages/Eindquiz1.jsx'
+import Project1 from './pages/Project1.jsx'
+import VoorDeDocent1 from './pages/VoorDeDocent1.jsx'
 // Thema 2 heeft, net als Thema 3, 4, 5, 7, 8, 9 en 10, een volledig uitgewerkte
 // les-structuur (Start, 4 lessen, begrippenlijst, extra rekenopdrachten,
 // eindquiz, project en een docentenpagina) met een eigen Layout en Header,
@@ -146,13 +160,24 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rekenen-3f" element={<Rekenen3F />} />
 
-        {/* Thema 1 heeft inmiddels eigen, volledig uitgewerkte content (zie
-            data/thema1Data.js en pages/Thema1.jsx) en krijgt daarom een eigen,
-            specifiekere route. React Router geeft statische segmenten ("/thema-1")
-            voorrang boven het dynamische ":themaSlug" hieronder, dus de volgorde
-            van deze routes maakt verder niet uit. */}
-        <Route path="/thema-1" element={<ThemaLayout />}>
-          <Route index element={<Thema1 />} />
+        {/* Thema 1 heeft, net als Thema 2, 3, 4, 5, 7, 8, 9 en 10, een volledig
+            uitgewerkte les-structuur (Start, 4 lessen, begrippenlijst, extra
+            rekenopdrachten, eindquiz, project en een docentenpagina) met een
+            eigen Layout en Header, zie components/Thema1Layout.jsx en
+            components/Header1.jsx. React Router geeft statische segmenten
+            ("/thema-1") voorrang boven het dynamische ":themaSlug" hieronder,
+            dus de volgorde van deze routes maakt verder niet uit. */}
+        <Route path="/thema-1" element={<Thema1Layout />}>
+          <Route index element={<Start1 />} />
+          <Route path="les-1-1" element={<Les11 />} />
+          <Route path="les-1-2" element={<Les12 />} />
+          <Route path="les-1-3" element={<Les13 />} />
+          <Route path="les-1-4" element={<Les14 />} />
+          <Route path="begrippenlijst" element={<Begrippenlijst1 />} />
+          <Route path="extra-rekenopdrachten" element={<ExtraRekenopdrachten1 />} />
+          <Route path="eindquiz" element={<Eindquiz1 />} />
+          <Route path="project" element={<Project1 />} />
+          <Route path="voor-de-docent" element={<VoorDeDocent1 />} />
         </Route>
         {/* Thema 2 heeft, net als Thema 3, 4, 5, 7, 8, 9 en 10, een volledig
             uitgewerkte les-structuur (Start, 4 lessen, begrippenlijst, extra
