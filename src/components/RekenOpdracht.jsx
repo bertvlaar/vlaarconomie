@@ -1,18 +1,25 @@
 import React, { useState } from 'react'
+import SmileyReflectie from './SmileyReflectie.jsx'
 
 /**
- * Numerieke rekenopdracht met directe feedback.
+ * Numerieke rekenopdracht met feedback ná een verplicht reflectiemoment.
  * `antwoord` = correcte waarde (getal), `eenheid` = bv. '€' of '%' of 'weken'
  * `tolerantie` = toegestane afwijking (default 0.01)
+ *
+ * De correctheid wordt bij het klikken op "Check" al berekend, maar pas
+ * getoond nadat de leerling een zelfinschatting (smiley) heeft gekozen.
  */
 export default function RekenOpdracht({ nummer, niveau, vraag, antwoord, eenheid = '€', tolerantie = 0.01, uitleg }) {
   const [invoer, setInvoer] = useState('')
-  const [status, setStatus] = useState(null) // null | 'goed' | 'fout'
+  const [status, setStatus] = useState(null) // null | 'goed' | 'fout' (al berekend, nog niet per se zichtbaar)
+  const [inschatting, setInschatting] = useState(null) // null | 'twijfel' | 'redelijk' | 'zeker'
   const [toonUitleg, setToonUitleg] = useState(false)
 
   const check = () => {
     const normalized = invoer.replace(',', '.').replace(/[^\d.\-]/g, '')
     const waarde = parseFloat(normalized)
+    setInschatting(null)
+    setToonUitleg(false)
     if (isNaN(waarde)) {
       setStatus('fout')
       return
@@ -49,6 +56,7 @@ export default function RekenOpdracht({ nummer, niveau, vraag, antwoord, eenheid
           onChange={(e) => {
             setInvoer(e.target.value)
             setStatus(null)
+            setInschatting(null)
           }}
           placeholder="jouw antwoord"
           className="w-32 rounded-md border border-border bg-pagebg p-2 text-sm text-slate-800 focus:border-blue-500"
@@ -62,12 +70,14 @@ export default function RekenOpdracht({ nummer, niveau, vraag, antwoord, eenheid
         </button>
       </div>
 
-      {status === 'goed' && (
+      {status && !inschatting && <SmileyReflectie onKiezen={setInschatting} />}
+
+      {status === 'goed' && inschatting && (
         <p className="mt-3 rounded-md border border-green-200 bg-green-50 p-3 text-sm font-medium text-green-800">
           ✅ Goed! Dat klopt.
         </p>
       )}
-      {status === 'fout' && (
+      {status === 'fout' && inschatting && (
         <div className="mt-3 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-800">
           <p className="font-medium">❌ Nog niet helemaal goed. Controleer je berekening.</p>
           <button

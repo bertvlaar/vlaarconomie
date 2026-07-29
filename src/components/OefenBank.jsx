@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
+import SmileyReflectie from './SmileyReflectie.jsx'
 
 const levelMeta = {
   brons: { label: 'Brons: Kennis & Begrip', icon: '🥉', ring: 'ring-amber-300', chip: 'bg-amber-100 text-amber-900' },
   zilver: { label: 'Zilver: Toepassing & Rekenen', icon: '🥈', ring: 'ring-slate-300', chip: 'bg-slate-200 text-slate-800' },
-  goud: { label: 'Goud: Analyse & Evaluatie (verplicht vwo)', icon: '🥇', ring: 'ring-yellow-300', chip: 'bg-yellow-100 text-yellow-900' },
+  goud: { label: 'Goud: Analyse & Evaluatie (de uitdaging)', icon: '🥇', ring: 'ring-yellow-300', chip: 'bg-yellow-100 text-yellow-900' },
 }
 
 function OefenVraag({ nummer, vraag, modelantwoord }) {
   const [antwoord, setAntwoord] = useState('')
   const [checked, setChecked] = useState(false)
+  const [inschatting, setInschatting] = useState(null) // null | 'twijfel' | 'redelijk' | 'zeker'
 
   return (
     <div className="rounded-lg border border-border bg-white p-5">
@@ -17,20 +19,28 @@ function OefenVraag({ nummer, vraag, modelantwoord }) {
       </p>
       <textarea
         value={antwoord}
-        onChange={(e) => setAntwoord(e.target.value)}
+        onChange={(e) => {
+          setAntwoord(e.target.value)
+          setChecked(false)
+          setInschatting(null)
+        }}
         rows={3}
         placeholder="Typ hier je antwoord..."
         className="w-full rounded-md border border-border bg-pagebg p-3 text-sm text-slate-800 focus:border-blue-500"
       />
       <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
         <button
-          onClick={() => setChecked(true)}
+          onClick={() => {
+            setChecked(true)
+            setInschatting(null)
+          }}
           className="rounded-md bg-action px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
         >
           Check
         </button>
       </div>
-      {checked && (
+      {checked && !inschatting && <SmileyReflectie onKiezen={setInschatting} />}
+      {checked && inschatting && (
         <div className="mt-3 rounded-md border border-green-200 bg-green-50 p-3 text-sm text-green-900">
           <span className="font-semibold">Modelantwoord ter controle: </span>
           {modelantwoord}

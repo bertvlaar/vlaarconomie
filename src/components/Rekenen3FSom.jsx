@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import SmileyReflectie from './SmileyReflectie.jsx'
 
 const CATEGORIE_LABELS = {
   procenten: 'Procenten',
@@ -15,19 +16,23 @@ const CATEGORIE_LABELS = {
  */
 export default function Rekenen3FSom({ nummer, som, onVolgende }) {
   const [invoer, setInvoer] = useState('')
-  const [status, setStatus] = useState(null) // null | 'goed' | 'fout'
+  const [status, setStatus] = useState(null) // null | 'goed' | 'fout' (al berekend, nog niet per se zichtbaar)
+  const [inschatting, setInschatting] = useState(null) // null | 'twijfel' | 'redelijk' | 'zeker'
   const [toonUitleg, setToonUitleg] = useState(false)
 
   // Reset het invoerveld zodra er een nieuwe som binnenkomt
   useEffect(() => {
     setInvoer('')
     setStatus(null)
+    setInschatting(null)
     setToonUitleg(false)
   }, [som])
 
   const nakijken = () => {
     const normalized = invoer.replace(',', '.').replace(/[^\d.\-]/g, '')
     const waarde = parseFloat(normalized)
+    setInschatting(null)
+    setToonUitleg(false)
     if (isNaN(waarde)) {
       setStatus('fout')
       return
@@ -66,6 +71,7 @@ export default function Rekenen3FSom({ nummer, som, onVolgende }) {
           onChange={(e) => {
             setInvoer(e.target.value)
             setStatus(null)
+            setInschatting(null)
           }}
           onKeyDown={(e) => {
             if (e.key === 'Enter') nakijken()
@@ -82,7 +88,9 @@ export default function Rekenen3FSom({ nummer, som, onVolgende }) {
         </button>
       </div>
 
-      {status === 'goed' && (
+      {status && !inschatting && <SmileyReflectie onKiezen={setInschatting} />}
+
+      {status === 'goed' && inschatting && (
         <div className="mt-3 rounded-md border border-green-200 bg-green-50 p-3 text-sm text-green-800">
           <p className="font-medium">✅ Goed! Dat klopt.</p>
           <button
@@ -95,7 +103,7 @@ export default function Rekenen3FSom({ nummer, som, onVolgende }) {
         </div>
       )}
 
-      {status === 'fout' && (
+      {status === 'fout' && inschatting && (
         <div className="mt-3 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-800">
           <p className="font-medium">❌ Nog niet helemaal goed. Controleer je berekening.</p>
           <button
