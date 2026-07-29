@@ -134,6 +134,7 @@ import Eindquiz10 from './pages/Eindquiz10.jsx'
 import Project10 from './pages/Project10.jsx'
 import VoorDeDocent10 from './pages/VoorDeDocent10.jsx'
 import Home from './pages/Home.jsx'
+import Rekenen2F from './pages/Rekenen2F.jsx'
 import Rekenen3F from './pages/Rekenen3F.jsx'
 
 // Thema 8 heeft, net als Thema 10, een volledig uitgewerkte les-structuur
@@ -158,6 +159,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/rekenen-2f" element={<Rekenen2F />} />
         <Route path="/rekenen-3f" element={<Rekenen3F />} />
 
         {/* Thema 1 heeft, net als Thema 2, 3, 4, 5, 7, 8, 9 en 10, een volledig
